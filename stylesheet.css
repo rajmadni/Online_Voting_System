@@ -1,0 +1,155 @@
+/* General Styling */
+body {
+  background: linear-gradient(135deg, #b8e994, #3498db);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Input and Select Styling */
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #2980b9;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+  border-color: #1abc9c;
+  box-shadow: 0 0 10px #1abc9c;
+}
+
+/* Upload Button */
+#upload {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  background: linear-gradient(135deg, #1abc9c, #16a085);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#upload:hover {
+  background: linear-gradient(135deg, #16a085, #0e6655);
+  transform: scale(1.05);
+}
+
+/* Header Section */
+#headerSection {
+  padding: 10px;
+  font-family: Cursive;
+  text-align: center;
+  font-size: 22px;
+  background: linear-gradient(135deg, #3498db, #2c3e50);
+  color: white;
+  border-radius: 5px;
+}
+
+/* Login Section */
+#loginSection {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  width: 40%;
+  margin: 50px auto;
+}
+
+/* Main Sections */
+#mainSection {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Profile and Group Sections */
+#profileSection, #groupSection {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+-------
+a {
+  text-decoration: none;
+  color: #007bff; /* Blue color */
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover
+
+
+#profileSection {
+  width: 30%;
+}
+
+#groupSection {
+  width: 60%;
+}
+
+/* Buttons */
+#loginbtn, #reglink, #back-button, #logout-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+#loginbtn, #reglink, #back-button, #logout-button {
+  background: linear-gradient(135deg, #3498db, #2c3e50);
+  color: white;
+}
+
+#loginbtn:hover, #reglink:hover, #back-button:hover, #logout-button:hover {
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  transform: scale(1.05);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: white;
+}
+#alreadyUser {
+  margin-top: 10px;
+}
+
+#loginLink {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #3498db, #2c3e50);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  margin-top: 5px;
+}
+
+#loginLink:hover {
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #mainSection {
+    flex-direction: column;
+  }
+
+  #profileSection, #groupSection {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #loginSection {
+    width: 90%;
+  }
+}
